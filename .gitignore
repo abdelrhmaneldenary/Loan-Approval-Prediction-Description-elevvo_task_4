@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data & models (keep raw data local)
+data/*
+!data/.gitkeep
+
+models/*
+!models/.gitkeep
+
+results/*
+!results/.gitkeep
